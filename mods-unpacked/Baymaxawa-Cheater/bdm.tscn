@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxlkvoqevx2t3"]
+
+[ext_resource type="Script" path="res://mods-unpacked/Baymaxawa-Cheater/bdm.gd" id="1_jnb70"]
+[ext_resource type="FontFile" uid="uid://bri6p4q8xkanw" path="res://fonts/AveriaSerif-Bold.ttf" id="2_wvod5"]
+
+[node name="buttle display manager" type="Node"]
+
+[node name="buttle display manager" type="Node" parent="."]
+script = ExtResource("1_jnb70")
+
+[node name="buttle display" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="display amount" type="Label" parent="buttle display"]
+layout_mode = 0
+offset_right = 76.0
+offset_bottom = 44.0
+theme_override_fonts/font = ExtResource("2_wvod5")
+text = "Live: 10
+Blank: 10"

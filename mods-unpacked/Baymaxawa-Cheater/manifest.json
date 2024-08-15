@@ -1,0 +1,23 @@
+{
+  "name": "Cheater",
+  "namespace": "Baymaxawa",
+  "version_number": "0.0.1",
+  "description": "想要开挂？现在你可以做到了！",
+  "website_url": "",
+  "dependencies": [],
+  "extra": {
+	"godot": {
+	  "compatible_mod_loader_version": ["2.0.0"],
+	  "compatible_game_version": ["1.2.2"],
+	  "authors": ["Baymaxawa"],
+	  "tags": [],
+	  "description_rich": "",
+	  "optional_dependencies": [
+		"GlitchedData-MultiPlayer"
+	  ],
+	  "load_before": [],
+	  "incompatibilities": [],
+	  "config_schema": {}
+	}
+  }
+}
